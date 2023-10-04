@@ -131,6 +131,15 @@ footer {
   left: 10%;
 }
 
+#info__primer__bloque,
+#ecosistemas,
+#carouselMobile,
+#carouselDesktop,
+#info__segundo__bloque,
+footer {
+  font-family: Jost;
+}
+
 #titulo__xlab h1 {
   font-family: Jost;
   font-size: 7rem;
