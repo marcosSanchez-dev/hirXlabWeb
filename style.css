@@ -124,3 +124,23 @@ ul {
 footer {
   background: #1e1e1e;
 }
+
+#titulo__xlab {
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+#titulo__xlab h1 {
+  font-family: Jost;
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 6rem;
+}
+
+#titulo__xlab p {
+  text-shadow: 0px 4px 24px rgba(0, 0, 0, 0.5);
+  font-family: Jost;
+  font-size: 1.5rem;
+  line-height: normal;
+}
