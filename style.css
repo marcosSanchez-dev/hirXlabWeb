@@ -74,7 +74,17 @@ ul {
   box-shadow: 4px 4px 10px rgba(2, 2, 2, 0.25),
     -4px -4px 10px rgba(2, 2, 2, 0.2);
 }
-
+.ecosistema__item p {
+  margin: 6% 0 0 0 !important;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: normal;
+}
+.ecosistema__item h1 {
+  margin: 0 !important;
+  font-weight: 700;
+  line-height: 1.8rem;
+}
 .servicios__item {
   /* border: 1px solid blue; */
   width: 397px;
