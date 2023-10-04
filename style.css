@@ -71,6 +71,8 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-shadow: 4px 4px 10px rgba(2, 2, 2, 0.25),
+    -4px -4px 10px rgba(2, 2, 2, 0.2);
 }
 
 .servicios__item {
