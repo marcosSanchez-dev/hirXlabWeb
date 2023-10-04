@@ -17,7 +17,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: #1e1e1e;
+  background: linear-gradient(#1e1e1e 85%, #655174 95%);
   color: white;
 }
 
@@ -117,4 +117,8 @@ ul {
 
 .icono__footer {
   margin: 0 5%;
+}
+
+footer {
+  background: #1e1e1e;
 }
