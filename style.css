@@ -140,7 +140,14 @@ footer {
   left: 10%; */
   position: relative;
   top: 15%;
-  padding-left: 15%;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #titulo__xlab {
+    padding-left: 15%;
+    text-align: left;
+  }
 }
 
 #info__primer__bloque,
