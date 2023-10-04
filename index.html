@@ -165,8 +165,8 @@
       </div>
     </section>
 
-    <section>
-      <div class="text-center">
+    <section class="p-5">
+      <div class="text-center mb-5">
         <h1>
           <b>
             Nos apasiona <span class="purple">romper barreras</span> y <br />
@@ -175,54 +175,89 @@
         </h1>
       </div>
 
-      <div>
-        <div class="row justify-content-around" style="margin: 3% 0">
-          <div class="col-4 text-left servicios__item">
-            <div class="contenido__card__servicios">
-              <h1>Desarrollo</h1>
-              <p>
-                Impulsamos la evolución, materializando <br />
-                ideas audaces, transformando el futuro <br />
-                con soluciones avanzadas y efectivas. <br />
-                <b>#TecnologíaVanguardista</b>
-              </p>
+      <div
+        id="serviciosCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <!-- Primer Item -->
+          <div class="carousel-item active">
+            <div class="row justify-content-around">
+              <div class="col-4 text-left servicios__item">
+                <div class="contenido__card__servicios">
+                  <h1>Desarrollo</h1>
+                  <p>
+                    Impulsamos la evolución, materializando <br />
+                    ideas audaces, transformando el futuro <br />
+                    con soluciones avanzadas y efectivas. <br />
+                    <b>#TecnologíaVanguardista</b>
+                  </p>
+                </div>
+              </div>
+              <div class="col-4 text-left servicios__item">
+                <div class="contenido__card__servicios">
+                  <h1>Growth Marketing</h1>
+                  <p>
+                    Impulsamos tu crecimiento digital con <br />
+                    audacia creatividad y visión con <br />
+                    soluciones innovadoras, generando un <br />
+                    impacto duradero. <br />
+                    <b>#GrowthMarketingInnovador</b>
+                  </p>
+                </div>
+              </div>
+              <div class="col-4 text-left servicios__item">
+                <div class="contenido__card__servicios">
+                  <h1>Diseño UX - UI</h1>
+                  <p>
+                    Diseñamos <b>plataformas digitales</b> con un <br />
+                    enfoque centrado en la satisfacción del <br />
+                    cliente durante su interacción con ellas. <br />
+                    <b> #DiseñoExperienciasFuncionalidad </b>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-4 text-left servicios__item">
-            <div class="contenido__card__servicios">
-              <h1>Growth Marketing</h1>
-              <p>
-                Impulsamos tu crecimiento digital con <br />
-                audacia creatividad y visión con <br />
-                soluciones innovadoras, generando un <br />
-                impacto duradero. <br />
-                <b>#GrowthMarketingInnovador</b>
-              </p>
-            </div>
-          </div>
-          <div class="col-4 text-left servicios__item">
-            <div class="contenido__card__servicios">
-              <h1>Diseño UX - UI</h1>
-              <p>
-                Diseñamos <b>plataformas digitales</b> con un <br />
-                enfoque centrado en la satisfacción del <br />
-                cliente durante su interacción con ellas. <br />
-                <b> #DiseñoExperienciasFuncionalidad </b>
-              </p>
-            </div>
-          </div>
-          <div class="col-4 text-left servicios__item">
-            <div class="contenido__card__servicios">
-              <h1>Consultoría</h1>
-              <p>
-                Dirigimos tu transformación hacia <br />
-                prácticas más eficientes y flexibles, <br />
-                garantizando una adaptación ágil. <br />
-                <b> #MetodologíasÁgiles </b>
-              </p>
+
+          <!-- Segundo Item (si tienes más items) -->
+          <div class="carousel-item">
+            <div class="row justify-content-around">
+              <div class="col-4 text-left servicios__item">
+                <div class="contenido__card__servicios">
+                  <h1>Consultoría</h1>
+                  <p>
+                    Dirigimos tu transformación hacia <br />
+                    prácticas más eficientes y flexibles, <br />
+                    garantizando una adaptación ágil. <br />
+                    <b> #MetodologíasÁgiles </b>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
+        <!-- Controles de navegación -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#serviciosCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#serviciosCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
       </div>
     </section>
 
