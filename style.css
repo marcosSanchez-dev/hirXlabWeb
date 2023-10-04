@@ -35,6 +35,16 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   height: 645px;
+  animation: fadeIn 2s ease-in-out forwards; /* 2s es la duración del efecto */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .purple {
