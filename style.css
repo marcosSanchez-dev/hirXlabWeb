@@ -126,9 +126,11 @@ footer {
 }
 
 #titulo__xlab {
+  /* 
+  left: 10%; */
   position: relative;
-  top: 10%;
-  left: 10%;
+  top: 15%;
+  padding-left: 15%;
 }
 
 #info__primer__bloque,
