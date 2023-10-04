@@ -41,7 +41,7 @@ ul {
   color: #9b78b8;
 }
 
-#letrasCarousel {
+.letrasCarousel {
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -52,8 +52,8 @@ ul {
   animation: moveBanner 20s linear infinite;
 }
 
-#letrasCarousel img {
-  width: 100%;
+.letrasCarousel img {
+  width: 100% !important;
   height: auto;
   flex: none; /* esto evita que las imágenes se reduzcan */
   margin-right: 60px;
@@ -154,4 +154,14 @@ footer {
   font-family: Jost;
   font-size: 1.5rem;
   line-height: normal;
+}
+
+a:link {
+  text-decoration: inherit;
+  cursor: pointer;
+}
+
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
 }
