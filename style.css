@@ -37,7 +37,7 @@ ul {
   height: 645px;
 }
 
-#purple-bold {
+.purple {
   color: #9b78b8;
 }
 
@@ -60,8 +60,46 @@ ul {
   padding: 5% 0;
 }
 
-.titulos-info {
-  padding: 2% 0;
+.ecosistema__item {
+  border: 1px solid red;
+  margin: 0 5%; /* Puedes a*/
+  /* padding: 5%; */
+  border-radius: 15px;
+  width: 315px;
+  height: 256px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.servicios__item {
+  border: 1px solid blue;
+  width: 397px;
+  height: 456px;
+  border-radius: 15px;
+}
+
+.servicios__item:nth-child(1) {
+  background-image: url("./assets/cardDesarrollo.svg");
+  background-repeat: no-repeat;
+}
+.servicios__item:nth-child(2) {
+  background-image: url("./assets/cardMarketing.svg");
+  background-repeat: no-repeat;
+}
+.servicios__item:nth-child(3) {
+  background-image: url("./assets/cardUX.svg");
+  background-repeat: no-repeat;
+}
+.servicios__item:nth-child(4) {
+  background-image: url("./assets/cardConsultoria.svg");
+  background-repeat: no-repeat;
+}
+
+.contenido__card__servicios {
+  position: relative;
+  top: 50%;
 }
 
 @keyframes moveBanner {
@@ -71,4 +109,8 @@ ul {
   100% {
     transform: translateX(-50%);
   }
+}
+
+.titulos-info {
+  padding: 2% 0;
 }
