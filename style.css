@@ -36,3 +36,39 @@ ul {
   background-size: cover;
   height: 645px;
 }
+
+#purple-bold {
+  color: #9b78b8;
+}
+
+#letrasCarousel {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.img-container {
+  display: flex;
+  animation: moveBanner 20s linear infinite;
+}
+
+#letrasCarousel img {
+  width: 100%;
+  height: auto;
+  flex: none; /* esto evita que las imágenes se reduzcan */
+  margin-right: 60px;
+  padding: 5% 0;
+}
+
+.titulos-info {
+  padding: 2% 0;
+}
+
+@keyframes moveBanner {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
